@@ -1,0 +1,22 @@
+Untuk menjalankan nya siapkan aplikasi anconda dan vsc
+setelah di download buka anaconda prompt
+ketik code ni:
+code .
+
+setelah itu akan langsung masuk ke aplikasi vsc setelah di vsc 
+1. klik terminal (buat terminal baru dengan format cmd)
+2. setelah itu buat environment baru dengan code:
+   conda create -n "deteksi" python==3.9
+3. nanti akan akan ada pilihan [y/n]
+   ketik saja y terus enter
+4. aktifkan environtment yang tadi sudah di baut dengan cara ketikan code ini:
+   conda activate deteksi
+5. setelah itu install requirements yang ada dengan cara :
+   pip install -r requirements.txt
+6. setelah itu jalankan programnya dengan cara ketikan code ini :
+   pyhton app.py
+7. setelah itu cari tulisan "http://127.0.0.1:5000"
+   salin tulisan tersebut, setelah itu paste ke browser. Untuk berhenti klik Ctrl+C 
+selamat program sudah di jalankan.
+
+NB : Jika ingin mengajukan pertanyaan, setidaknya pertanyaan yang hampir sama dengan yang ada di datase.JSON
